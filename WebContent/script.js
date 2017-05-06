@@ -1,4 +1,4 @@
-/*function getGreeting(d) {
+function getGreeting(d) {
   var greeting = new String();
   var hour = d.getHours();
 
@@ -22,4 +22,4 @@ window.onload = function() {
   greeting = getGreeting(date);
 
   document.getElementById("greeting").innerHTML= greeting;
-}*/
+}
