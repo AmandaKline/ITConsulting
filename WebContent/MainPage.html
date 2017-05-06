@@ -5,27 +5,46 @@
     style.css
 </head>
 <body background="https://c1.staticflickr.com/9/8082/8435735604_2afe052b5b_h.jpg">
-    <link rel="stylesheet" href="style.css"/>
-    <script type="text/javascript" src="script.js"></script>
-    
-    <img id="logo" src=https://media.licdn.com/media/p/1/000/1af/274/2e6ef83.png alt="Welcome"></img>
-    <h1 id="greeting"> </h1>
+  <div data-role="page" id="home">
+    <img id="logo" src=https://media.licdn.com/media/p/1/000/1af/274/2e6ef83.png alt="Welcome">
+    <h1 id="greeting"></h1>
     <ul id="nav_container">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#bio">Bio</a></li>
+      <li><a href="#resume">Resume</a></li>
     </ul>
-    
+
     <div id="main_content">
-        <div class = "right_column">
-            <img src=http://i1150.photobucket.com/albums/o605/slaundy/160x600ad.gif alt="Your Ad Here!"></img>
-        </div>
-        <div class="left_column">
-            <p> Welcome to Amanda's Website! </p>
-            <img id="hi" src=http://2017.animationdingle.com/wp-content/uploads/2016/08/hello_world.gif alt="Hello World!"></img> 
-            <p> Feel free to look around. </p>
-        </div>
+      <div class="right_column">
+        <img src=http://i1150.photobucket.com/albums/o605/slaundy/160x600ad.gif alt="Your Ad Here!">
+      </div>
+      <div class="left_column">
+        <p> Welcome to Amanda's Website! </p>
+        <img id="hi" src=http://2017.animationdingle.com/wp-content/uploads/2016/08/hello_world.gif alt="Hello World!">
+        <p> Feel free to look around. </p>
+      </div>
     </div>
+  </div>
+  <div data-role="page" id="bio">
+    <h1 id="bioheading">Bio</h1>
+  </div>
+  <div data-role="page" id="resume">
+    <h1 id="resumeheading">Resume</h1>
+    <h3 id="resumetext">
     
+    </h3>
+  </div>
+  <div data-role="page" id="contact">
+    <h1 id="contactheading">Contact</h1>
+    <h3 id ="contacttext">
+      Amanda Kline <br>
+      klineama@umich.edu <br>
+      (989) 289-0367 <br>
+    </h3>
+  </div>
+  <h2 id="updatedtext">Last Update: 2 March 2017</h2>
 </body>
+
 
 </html>

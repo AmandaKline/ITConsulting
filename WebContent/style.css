@@ -1,31 +1,53 @@
 @CHARSET "ISO-8859-1";
-#nav_container{
-    list-style-type: none;
-    background: #87cefa;
-    margin-bottom: 15;
+#nav_container {
+  list-style-type: none;
+  background: #87cefa;
+  margin-bottom: 15;
 }
 
-#nav_container li{
-    display: inline-block;
+#nav_container li {
+  display: inline-block;
 }
 
-#nav_container li a{
-    display: inline-block;
-    text-decoration: none;
-    padding: 5;
-    color: black
+#nav_container li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5;
+  color: black
 }
 
-#nav_container li a:hover{
-    background: #b19cd9
+#nav_container li a:hover {
+  background: #b19cd9
 }
 
-.right_column{
-    float: right;
-    width: 160;   
+.right_column {
+  float: right;
+  width: 160;
 }
 
-.left_column{
-    margin-right: 170;    
+.left_column {
+  margin-right: 170;
 }
 
+#bioheading {
+  background: #87cefa;
+}
+
+#resumeheading {
+  background: #87cefa;
+}
+
+#contactheading {
+  background: #87cefa;
+}
+
+#contacttext {
+  background:#666666;
+  display: inline;
+  float: left;
+}
+
+#updatedtext {
+  background:#87cefa;
+  display: inline;
+}
