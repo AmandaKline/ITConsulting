@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 #nav_container {
   list-style-type: none;
-  background: #87cefa;
+  background: #556B78;
   margin-bottom: 15;
 }
 
@@ -13,11 +13,11 @@
   display: inline-block;
   text-decoration: none;
   padding: 5;
-  color: black
+  color: #556B78
 }
 
 #nav_container li a:hover {
-  background: #556B78
+  background: #8bafc4
 }
 
 .right_column {
@@ -31,26 +31,29 @@
 
 #greeting {
   background: #556B78;
-  color: white;
+  color: #e1ecf2;
 }
 
 #activitiesheading {
-  background: #556B78;
+  background: #556B78; /* Background color */
+  color: #e1ecf2; /* Text color */
 }
 
 #resumeheading {
   background: #556B78;
-  color: white;
+  color: #e1ecf2;
 }
 
 #contactheading {
   background: #556B78;
+  color: #e1ecf2;
 }
 
 
 #updatedtext {
   background:#556B78;
   display: inline;
+  color: #e1ecf2;
 }
 
 #linkedin:hover {
