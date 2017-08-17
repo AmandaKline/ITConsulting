@@ -23,15 +23,3 @@ window.onload = function() {
 
   document.getElementById("greeting").innerHTML= greeting;
 }
-
-$(document).ready(function() {    //Make Contact Form responsive
-	function setHeight() {
-		windowHeight = $(window).innerHeight();
-		$('contactForm').css('min-height', windowHeight);
-	};
-	setHeight();
-	
-	$(window).resize(function() {
-		setHeight();
-	});
-});
