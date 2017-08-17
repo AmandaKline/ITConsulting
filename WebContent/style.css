@@ -17,7 +17,7 @@
 }
 
 #nav_container li a:hover {
-  background: #b19cd9
+  background: #556B78
 }
 
 .right_column {
@@ -30,29 +30,26 @@
 }
 
 #greeting {
-  background: #87cefa;
+  background: #556B78;
+  color: white;
 }
 
 #activitiesheading {
-  background: #87cefa;
+  background: #556B78;
 }
 
 #resumeheading {
-  background: #87cefa;
+  background: #556B78;
+  color: white;
 }
 
 #contactheading {
-  background: #87cefa;
+  background: #556B78;
 }
 
-#contacttext {
-  background:#666666;
-  display: inline;
-  float: left;
-}
 
 #updatedtext {
-  background:#87cefa;
+  background:#556B78;
   display: inline;
 }
 
